@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ImePrezimeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ImePrezimeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ImePrezimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 475</value>
+  </data>
+  <data name="ImePrezimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="ImePrezimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="ImePrezimeLabel.Text" xml:space="preserve">
+    <value>Ime i Prezime:</value>
+  </data>
+  <data name="&gt;&gt;ImePrezimeLabel.Name" xml:space="preserve">
+    <value>ImePrezimeLabel</value>
+  </data>
+  <data name="&gt;&gt;ImePrezimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImePrezimeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ImePrezimeLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="DatumRodjenjaLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="DatumRodjenjaLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DatumRodjenjaLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 502</value>
+  </data>
+  <data name="DatumRodjenjaLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="DatumRodjenjaLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="DatumRodjenjaLabel.Text" xml:space="preserve">
+    <value>Datum rođenja:</value>
+  </data>
+  <data name="&gt;&gt;DatumRodjenjaLabel.Name" xml:space="preserve">
+    <value>DatumRodjenjaLabel</value>
+  </data>
+  <data name="&gt;&gt;DatumRodjenjaLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DatumRodjenjaLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DatumRodjenjaLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="AdresaStanovanjaLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="AdresaStanovanjaLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AdresaStanovanjaLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 475</value>
+  </data>
+  <data name="AdresaStanovanjaLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="AdresaStanovanjaLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="AdresaStanovanjaLabel.Text" xml:space="preserve">
+    <value>Adresa stanovanja:</value>
+  </data>
+  <data name="&gt;&gt;AdresaStanovanjaLabel.Name" xml:space="preserve">
+    <value>AdresaStanovanjaLabel</value>
+  </data>
+  <data name="&gt;&gt;AdresaStanovanjaLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdresaStanovanjaLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AdresaStanovanjaLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="MjestoStanovanjaLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="MjestoStanovanjaLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MjestoStanovanjaLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 527</value>
+  </data>
+  <data name="MjestoStanovanjaLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="MjestoStanovanjaLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="MjestoStanovanjaLabel.Text" xml:space="preserve">
+    <value>Mjesto stanovanja:</value>
+  </data>
+  <data name="&gt;&gt;MjestoStanovanjaLabel.Name" xml:space="preserve">
+    <value>MjestoStanovanjaLabel</value>
+  </data>
+  <data name="&gt;&gt;MjestoStanovanjaLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MjestoStanovanjaLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MjestoStanovanjaLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="TelefonLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="TelefonLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TelefonLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 527</value>
+  </data>
+  <data name="TelefonLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="TelefonLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="TelefonLabel.Text" xml:space="preserve">
+    <value>Telefon:</value>
+  </data>
+  <data name="&gt;&gt;TelefonLabel.Name" xml:space="preserve">
+    <value>TelefonLabel</value>
+  </data>
+  <data name="&gt;&gt;TelefonLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TelefonLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TelefonLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="EmailLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="EmailLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EmailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 553</value>
+  </data>
+  <data name="EmailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="EmailLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="EmailLabel.Text" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Name" xml:space="preserve">
+    <value>EmailLabel</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="PostaLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="PostaLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PostaLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 502</value>
+  </data>
+  <data name="PostaLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="PostaLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="PostaLabel.Text" xml:space="preserve">
+    <value>Poštanski broj:</value>
+  </data>
+  <data name="&gt;&gt;PostaLabel.Name" xml:space="preserve">
+    <value>PostaLabel</value>
+  </data>
+  <data name="&gt;&gt;PostaLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PostaLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PostaLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="SifraNatjecateljaTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="SifraNatjecateljaTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 472</value>
+  </data>
+  <data name="SifraNatjecateljaTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 20</value>
+  </data>
+  <data name="SifraNatjecateljaTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="SifraNatjecateljaTextBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SifraNatjecateljaTextBox.Name" xml:space="preserve">
+    <value>SifraNatjecateljaTextBox</value>
+  </data>
+  <data name="&gt;&gt;SifraNatjecateljaTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SifraNatjecateljaTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SifraNatjecateljaTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Promijeni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 553</value>
+  </data>
+  <data name="Promijeni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 23</value>
+  </data>
+  <data name="Promijeni.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="Promijeni.Text" xml:space="preserve">
+    <value>Spremi izmjene</value>
+  </data>
+  <data name="&gt;&gt;Promijeni.Name" xml:space="preserve">
+    <value>Promijeni</value>
+  </data>
+  <data name="&gt;&gt;Promijeni.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Promijeni.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Promijeni.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ImePrezimeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 472</value>
+  </data>
+  <data name="ImePrezimeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 20</value>
+  </data>
+  <data name="ImePrezimeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;ImePrezimeTextBox.Name" xml:space="preserve">
+    <value>ImePrezimeTextBox</value>
+  </data>
+  <data name="&gt;&gt;ImePrezimeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImePrezimeTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ImePrezimeTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="DatumRodjenjaDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 498</value>
+  </data>
+  <data name="DatumRodjenjaDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 20</value>
+  </data>
+  <data name="DatumRodjenjaDateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;DatumRodjenjaDateTimePicker.Name" xml:space="preserve">
+    <value>DatumRodjenjaDateTimePicker</value>
+  </data>
+  <data name="&gt;&gt;DatumRodjenjaDateTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DatumRodjenjaDateTimePicker.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DatumRodjenjaDateTimePicker.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="AdresaStanovanjaTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>541, 472</value>
+  </data>
+  <data name="AdresaStanovanjaTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 20</value>
+  </data>
+  <data name="AdresaStanovanjaTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;AdresaStanovanjaTextBox.Name" xml:space="preserve">
+    <value>AdresaStanovanjaTextBox</value>
+  </data>
+  <data name="&gt;&gt;AdresaStanovanjaTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdresaStanovanjaTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AdresaStanovanjaTextBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="MjestoStanovanjaTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>541, 524</value>
+  </data>
+  <data name="MjestoStanovanjaTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 20</value>
+  </data>
+  <data name="MjestoStanovanjaTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;MjestoStanovanjaTextBox.Name" xml:space="preserve">
+    <value>MjestoStanovanjaTextBox</value>
+  </data>
+  <data name="&gt;&gt;MjestoStanovanjaTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MjestoStanovanjaTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MjestoStanovanjaTextBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="TelefonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 524</value>
+  </data>
+  <data name="TelefonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 20</value>
+  </data>
+  <data name="TelefonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;TelefonTextBox.Name" xml:space="preserve">
+    <value>TelefonTextBox</value>
+  </data>
+  <data name="&gt;&gt;TelefonTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TelefonTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TelefonTextBox.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="EmailTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 550</value>
+  </data>
+  <data name="EmailTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 20</value>
+  </data>
+  <data name="EmailTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;EmailTextBox.Name" xml:space="preserve">
+    <value>EmailTextBox</value>
+  </data>
+  <data name="&gt;&gt;EmailTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EmailTextBox.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="PostaTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>541, 499</value>
+  </data>
+  <data name="PostaTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 20</value>
+  </data>
+  <data name="PostaTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;PostaTextBox.Name" xml:space="preserve">
+    <value>PostaTextBox</value>
+  </data>
+  <data name="&gt;&gt;PostaTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PostaTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PostaTextBox.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Obrisi.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Obrisi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 553</value>
+  </data>
+  <data name="Obrisi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="Obrisi.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="Obrisi.Text" xml:space="preserve">
+    <value>Obriši natjecatelja</value>
+  </data>
+  <data name="&gt;&gt;Obrisi.Name" xml:space="preserve">
+    <value>Obrisi</value>
+  </data>
+  <data name="&gt;&gt;Obrisi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Obrisi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Obrisi.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>729, 553</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 23</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Povratak na izbornik</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="AsocijacijeDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="NatjecateljTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>356, 17</value>
+  </metadata>
+  <metadata name="TableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>539, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NatjecateljDataGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <metadata name="imePrezime.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="imePrezime.HeaderText" xml:space="preserve">
+    <value>Ime i prezime</value>
+  </data>
+  <data name="imePrezime.Width" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <metadata name="datumRodjenja.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="datumRodjenja.HeaderText" xml:space="preserve">
+    <value>Datum rođenja</value>
+  </data>
+  <metadata name="adresaStanovanja.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="adresaStanovanja.HeaderText" xml:space="preserve">
+    <value>Adresa stanovanja</value>
+  </data>
+  <data name="adresaStanovanja.Width" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <metadata name="mjestoStanovanja.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="mjestoStanovanja.HeaderText" xml:space="preserve">
+    <value>Mjesto stanovanja</value>
+  </data>
+  <data name="mjestoStanovanja.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <metadata name="posta.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="posta.HeaderText" xml:space="preserve">
+    <value>Pošta</value>
+  </data>
+  <data name="posta.Width" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <metadata name="telefon.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="telefon.HeaderText" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="telefon.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <metadata name="email.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="email.HeaderText" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="email.Width" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="NatjecateljDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="NatjecateljDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>855, 444</value>
+  </data>
+  <data name="NatjecateljDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;NatjecateljDataGridView.Name" xml:space="preserve">
+    <value>NatjecateljDataGridView</value>
+  </data>
+  <data name="&gt;&gt;NatjecateljDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NatjecateljDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NatjecateljDataGridView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>78</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>879, 583</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PromjenaDetaljaNatjecatelja</value>
+  </data>
+  <data name="&gt;&gt;AsocijacijeDataSet.Name" xml:space="preserve">
+    <value>AsocijacijeDataSet</value>
+  </data>
+  <data name="&gt;&gt;AsocijacijeDataSet.Type" xml:space="preserve">
+    <value>Asocijacije.AsocijacijeDataSet, AsocijacijeDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;NatjecateljTableAdapter.Name" xml:space="preserve">
+    <value>NatjecateljTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;NatjecateljTableAdapter.Type" xml:space="preserve">
+    <value>Asocijacije.AsocijacijeDataSetTableAdapters.NatjecateljTableAdapter, AsocijacijeDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TableAdapterManager.Name" xml:space="preserve">
+    <value>TableAdapterManager</value>
+  </data>
+  <data name="&gt;&gt;TableAdapterManager.Type" xml:space="preserve">
+    <value>Asocijacije.AsocijacijeDataSetTableAdapters.TableAdapterManager, AsocijacijeDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;imePrezime.Name" xml:space="preserve">
+    <value>imePrezime</value>
+  </data>
+  <data name="&gt;&gt;imePrezime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;datumRodjenja.Name" xml:space="preserve">
+    <value>datumRodjenja</value>
+  </data>
+  <data name="&gt;&gt;datumRodjenja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;adresaStanovanja.Name" xml:space="preserve">
+    <value>adresaStanovanja</value>
+  </data>
+  <data name="&gt;&gt;adresaStanovanja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mjestoStanovanja.Name" xml:space="preserve">
+    <value>mjestoStanovanja</value>
+  </data>
+  <data name="&gt;&gt;mjestoStanovanja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;posta.Name" xml:space="preserve">
+    <value>posta</value>
+  </data>
+  <data name="&gt;&gt;posta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telefon.Name" xml:space="preserve">
+    <value>telefon</value>
+  </data>
+  <data name="&gt;&gt;telefon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;email.Name" xml:space="preserve">
+    <value>email</value>
+  </data>
+  <data name="&gt;&gt;email.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PromjenaDetaljaNatjecatelja</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
